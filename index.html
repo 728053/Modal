@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation-inline.com</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="icon" href="assets/images/favicon(1).ico">
+</head>
+<body class="">
+    <div class="container" id="form">
+      <div class="row mx-4 my-3">
+        <div class="col-3"></div>
+        <div class="col-6 my-5 d-flex flex-column justify-content-center box p-4 rounded shadow" style="background-color: rgb(194, 184, 184);">
+          <input class="border-radius" type="submit" name="reservation" id="reservation" value="Make a reservation">
+          <div class="d-flex justify-content-center my-3"><img class="photo" style="border-radius: 100px;" src="assets/images/favicon(1).ico" alt="images"></div>
+          <button class="btn btn-primary my-2" style="border-radius: 10px;" id="check">check it out!</button>
+        </div>
+        <div class="3"></div>
+      </div>
+    </div>
+  <div id="body">
+        <div class="row text-center" style="height: 50px;">
+        <button type="button" class="btn btn-primary justify-content-start col-4" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservation on the Plane</button>
+        <button type="button" class="btn btn-secondary justify-content-center col-4" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Reservation on the Car</button>
+        <button type="button" class="btn btn-primary justify-content-end col-4" data-bs-toggle="modal"data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Reservation on the flight</button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Making a reservation</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 text-center">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Cotisse</option>
+                      <option value="2">Soa-trans</option>
+                      <option value="3">Mada-voyage</option>
+                    </select>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <div class="d-flex mx-3">
+                    <label for="recipient-name" class="col-form-label">¤Departure:</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Tananarive</option>
+                      <option value="2">Antsirabe</option>
+                      <option value="3">Fianaratsoa</option>
+                      <option value="3">Tulear</option>
+                      <option value="3">Tamatave</option>
+                      <option value="3">Diego</option>
+                      <option value="3">Majunga</option>
+                    </select>
+                    </div>
+                    <div class="d-flex mx-3">
+                    <label for="recipient-name" class="col-form-label">¤Destination:</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">Tananarive</option>
+                      <option value="2">Antsirabe</option>
+                      <option value="3">Fianaratsoa</option>
+                      <option value="3">Tulear</option>
+                      <option value="3">Tamatave</option>
+                      <option value="3">Diego</option>
+                      <option value="3">Majunga</option>
+                    </select>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="d-flex justify-content-center my-3">
+                    <div class="mx-3">
+                    <label for="date" class="col-form-label">date:</label>
+                    <input type="date" id="date"></input>
+                    </div>
+                    <div class="mx-3">
+                    <label for="radio" class="col-form-label">Night</label>
+                    <input type="radio" name="radio" id="radio">
+                    </div>
+                    <div class="mx-3">
+                    <label for="radio" class="col-form-label">Morning</label>
+                    <input type="radio" name="radio" id="radio">
+                    </div>
+                  </div>
+                  <div class="mb-3 d-flex justify-content-center">
+                    <label for="time" class="col-form-label">time:</label>
+                    <div class="mx-4">
+                    <input type="time" id="time" class="center"></input>
+                    </div>
+                  </div>
+                </form>
+                <div>
+                  <label class="col-form-label">Your number call:</label>
+                  <input type="tel" style="box-sizing: content-box;" value="">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="box">
+            <div class="row mx-4 my-4">
+                <div class="col-3"></div>
+                    <div class="col-6 my-5">
+                        <div class="d-flex flex-column box p-4 rounded shadow" style="background-color: rgb(148, 166, 184);">
+                            <div class="d-flex justify-content-center my-3">
+                                <img src="assets/images/favicon(1).ico" style="border-radius: 50px;" alt="photo Profil">
+                                </div>
+                            <input class="form-control form-control-lg my-2" id="input" type="email" placeholder="Gmail or Numer call">
+                            <input class="form-control form-control-lg my-2" id="input" type="password" placeholder="Password">
+                            <input type="submit" style="background-color: cornflowerblue;" class="form-control form-control-lg" value="Connection">
+                            <hr>
+                            <div class="text-center"><a href="#">creation new compt</a></div>
+                        </div>
+                        <div class="bottom text-center my-3 opacity-50" style="color: rgb(182, 31, 4);">--Wish you like this and visit it for free--</div>
+                    </div>
+                    <div class="col-3"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Segment one" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-warnig" role="progressbar" aria-label="Segment one" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar-striped bg-success" role="progressbar" aria-label="Segment two" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-info" role="progressbar" aria-label="Segment three" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Segment three" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <hr>
+  </div>
+         <script src="assets/js/bootstrap.bundle.js"></script>
+         <script src="assets/js/app.js"></script>
+   
+</body>
+</html>
